@@ -1,0 +1,247 @@
+// Style for Header
+
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  padding: 5px 0;
+  border-width: 5px 0 5px 0;
+  border-color: orangered;
+  border-style: dotted;
+
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+    .header-logo{
+      .logo{
+        color: white;
+        span{
+          color: orangered;
+        }
+      }
+    }
+
+    .navbar{
+      color: white;
+      .navbar-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .nav-items{
+          margin: 0 40px; 
+          font-size: 22px;
+          transition: 0.2s;
+          &:hover{
+            border-width: 0 0 5px 0;
+            border-color: orangered;
+            border-style: solid;
+          }
+        }
+      }
+    }
+  }
+}
+
+// Style for Middle
+.middle{
+  width: 100%;
+  height: 95vh;
+  border-width: 0 0 5px 0;
+  border-color: orangered;
+  border-style: dotted;
+  .middle-container{
+    display: flex;
+    align-items: center;
+    background-image: url('./assets/20230719_164839_0000.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100%;
+    .middle-left{
+      width: 50%;
+      height: 100%;
+    }
+    .middle-right{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .profile-card{
+        border-width: 5px;
+        border-color: orangered;
+        border-style: dotted;
+        padding: 25px 50px;
+        .profile-card-container{
+          text-align: center;
+          .profile-downloadables{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p:nth-child(1) {
+              border-radius: 3px;
+              color: orangered;
+              background-color: rgb(240, 226, 226);
+              padding: 10px;
+              border: 2px solid orangered;
+            }
+            p:nth-child(2) {
+              border-radius: 3px;
+              color: white;
+              background-color: orangered;
+              border: 2px solid rgb(240, 226, 226);
+              padding: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Style for About
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50vh;
+  color: white;
+  background-color: black;
+  border-width: 0 0 5px 0;
+  border-color: orangered;
+  border-style: dotted;
+  .about-container{
+    width: 60%;
+    text-align: center;
+    .about-title{
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+    .about-words{
+
+    }
+  }
+}
+
+// Style for Skills
+
+.skills{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  padding: 0 0 50px 0;
+  border-width: 0 0 5px 0;
+  border-color: orangered;
+  border-style: dotted;
+  .skills-container{
+    text-align: center;
+    width: 95%;
+    .skills-lists{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .skills-list{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        align-items: center;
+        .skills-item{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          span{
+            margin: 0 0 0 5px;
+          }
+        }
+      }
+    }
+  
+  }
+}
+
+// Style for Projects
+.projects{
+  display: flex;
+  align-items: 'center';
+  justify-content: center;
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-width: 0 0 5px 0;
+  border-color: orangered;
+  border-style: dotted;
+  .projects-container{
+    text-align: center;
+    .projects-title{
+      font-size: 22px;
+    }
+    .card-container{
+      display: flex;
+      align-items: 'center';
+      justify-content: center;
+      width: 100%;
+      margin: 0 0 30px 0;
+      .carousel{
+        height: 400px;
+        background-color:  rgb(232 232 232);
+        .slide-container{
+          .slide-image{
+            margin: 20px 0;
+            width: 250px;
+            height: 250px;
+          }
+          h3, a{
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+
+// Style for Contact
+
+.contact{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  border-width: 0 0 5px 0;
+  border-color: orangered;
+  border-style: dotted;
+  .contact-container{
+    text-align: center;
+    .contact-title{
+      font-size: 22px;
+    }
+    .contact-items{
+      text-align: center;
+
+      .contact-item{
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+        p{
+          margin: 0 0 0 5px;
+        }
+      }
+    }
+  }
+}
