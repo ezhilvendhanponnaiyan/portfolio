@@ -44,7 +44,14 @@ export default function Projects() {
       <div className="projects-container">
         <h2 className="projects-title">Projects</h2>
         <div className="card-container">
-          <Carousel showArrows={true} showThumbs={false}>
+          <Carousel
+            autoPlay
+            infiniteLoop={true}
+            showArrows={true}
+            showThumbs={false}
+            transitionTime={1000}
+            interval={2000}
+          >
             {projectSlider.map((item) => {
               return (
                 <div className="slides" key={item?.id}>

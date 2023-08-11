@@ -11,8 +11,20 @@ export default function Middle() {
                 A professional web and app developer
               </p>
               <div className="profile-downloadables">
-                <p>Download Resume</p>
-                <p>Work Project</p>
+                <p>
+                  <a href={require("../../assets/resume_ezhil.pdf")}>
+                    Download Resume
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href={"https://github.com/ezhilvendhanponnaiyan"}
+                    target="_blank"
+                  >
+                    Work Project
+                  </a>
+                </p>
+                <p></p>
               </div>
             </div>
           </div>
